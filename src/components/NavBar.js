@@ -41,7 +41,7 @@ export default class NavBar extends Component {
                             <AnchorLink href='#projectsatwork'>Projects At Work</AnchorLink>
                         </li>
                         <li>
-                            <a href="https://github.com/malarm/hooks/blob/master/Malar's%20Resume.pdf" target="_blank">Resume</a>
+                            <a href="https://github.com/malarm/malarruban/blob/master/Resume.pdf" target="_blank">Resume</a>
                         </li>
                     </ul>
                 </div>
