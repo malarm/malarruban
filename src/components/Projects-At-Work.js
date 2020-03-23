@@ -10,7 +10,7 @@ const ProjectsAtWork = () => {
                     <li><a href="https://www.deo.dk/" target="_blank" >Deo</a></li>
                     <li><a href="http://www.undervisning.deo.dk/" target="_blank">Undervisning</a></li>
                     <li><a href="http://www.euforedrag.dk/" target="_blank">Euforedrag</a></li>
-                    <li><a href="www.notat.dk" target="_blank">Notat</a></li>
+                    <li><a href="http://notat.dk/" target="_blank">Notat</a></li>
                     <li><a href="https://www.cphcasting.dk/" target="_blank">Cphcasting</a></li>
                 </ul>
             </div>
