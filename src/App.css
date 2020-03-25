@@ -4,37 +4,41 @@
   box-sizing: border-box;
 }
 :root {
-  --primaryColor: #af9a7d;
+ 
   --mainWhite: #fff;
   --offWhite: #f7f7f7;
   --mainBlack: #222;
   --mainGrey: #ececec;
   --darkGrey: #cfcfcf;
+  --mainred:#fe346e;
   --mainTransition: all 0.3s linear;
-  --mainSpacing: 3px;
-  --lightShadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5);
-  --darkShadow: 4px 10px 5px 0px rgba(0, 0, 0, 0.5);
+  --mainSpacing: 2px;
+ 
 }
 
 /* globals */
+@import url('https://fonts.googleapis.com/css?family=Inter|Poppins&display=swap');
+
 body {
   padding-top: 66px;
   color: var(--mainBlack);
   background: var(--mainWhite);
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+ /* font-family: Verdana, Geneva, Tahoma, sans-serif;*/
   line-height: 1.4;
 }
 h1 {
   font-size: 2em;
   line-height: 1;
   margin-bottom: 0.5em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 h2 {
   font-size: 1.5em;
   margin-bottom: 0.75em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 h3 {
-  font-size: 1em;
+  font-size: 1.4em;
   line-height: 1;
   margin-bottom: 1em;
 }
@@ -53,6 +57,9 @@ h6 {
   font-weight: bold;
   margin-bottom: 1.5em;
 }
+p {
+  font-family: 'Inter',sans-serif;
+}
 
 /* Navbar */
 .navbar {
@@ -63,6 +70,7 @@ h6 {
   padding: 0.75rem 2rem;
   background: var(--offWhite);
   z-index: 1;
+  font-family: 'Poppins', sans-serif;
 }
 .nav-header {
   display: flex;
@@ -76,7 +84,7 @@ h6 {
 }
 .nav-icon {
   font-size: 1.5rem;
-  color: var(--primaryColor);
+  color: var(--mainred);
 }
 .nav-links {
  height: 0;
@@ -96,7 +104,7 @@ h6 {
   letter-spacing: var(--mainSpacing);
 }
 .nav-links a:hover {
-  color: lightblue;
+  color: var(--mainred);
   text-decoration: underline;
 }
 
@@ -127,8 +135,8 @@ h6 {
 /* Banner */
 .banner {
   display: inline-block;
-  background: rgba(0, 0, 0, 0.5);
-  color: var(--mainWhite);
+  background:lightblue;
+  color: var(--mainBlack);
   padding: 2rem 1rem;
   text-align: center;
   text-transform: capitalize;
@@ -139,12 +147,7 @@ h6 {
 .banner h1 {
   font-size: 2.5rem;
 }
-.banner div {
-  width: 10rem;
-  height: 5px;
-  background: var(--primaryColor);
-  margin: 1.7rem auto;
-}
+
 .banner p {
   font-size: 1.2rem;
   margin-bottom: 2rem;
@@ -188,7 +191,7 @@ h6 {
   border-radius: 10px;
 }
 .about-me {
-  width: 80vw;
+ /* width: 80vw;*/
   display: grid;
   grid-template-columns: 1fr;
   margin: 2rem auto;
@@ -198,14 +201,13 @@ h6 {
   margin: 1rem 0;
  }
 @media screen and (min-width: 992px) {
-   .about-me,
-  .room-extras {
+   .about-me
+  {
     width: 95vw;
     max-width: 1170px;
+    display: flex;
   }
-  .about-me {
-   display: flex;
-  }
+  
   .description {
     padding: 20px;
   }
@@ -218,12 +220,11 @@ h6 {
   padding: 20px;
   margin: 10px;
 }
-.more {
-  font-weight: bold;
-  text-decoration: none;
-  color: black;
-  font-size: 18px;
+.container:hover {
+  background-color: var(--mainred);
+  color: var(--mainWhite);
 }
+
 .Personal-projects {
   width: 80vw;
   margin: 0 auto;
@@ -237,6 +238,18 @@ h6 {
   width: 100%;
   display: block;
 }
+.github-link {
+  text-decoration: none;
+  color: var(--mainBlack);
+}
+.imdb-more {
+  margin-left: 53px;
+  margin-top: -33px;
+}
+.resort-more {
+  margin-left: 132px;
+  margin-top: -33px;
+}
 @media screen and (min-width: 992px) {
   .Personal-projects
  {
@@ -244,35 +257,16 @@ h6 {
     max-width: 1170px;
   }
 }
-.projects1 {
- 
-  background-image: url("./images/firstproject.jpg") ;
-  background-repeat: no-repeat;
-  min-height: 60vh;
-  color: white;
-  text-align: center;
-  font-size: 22px;
-  border-radius: 10px;
+@media screen and (max-width: 500px) {
+  .imdb-more
+ {
+  margin-left: 78px;
+  }
+  .resort-more{
+margin-left: 173px;
+  }
 }
-.projects2 {
- 
-  background-image: url("./images/defaultBcg.jpeg") ;
-  min-height: 60vh;
-  color: white;
-  text-align: center;
-  font-size: 22px;
-  border-radius: 10px;
-}
-.projects3 {
- 
-  background-image: url("./images/imdb.jpg") ;
-  background-repeat: no-repeat;
-  min-height: 60vh;
-  color: white;
-  text-align: center;
-  font-size: 22px;
-  border-radius: 10px;
-}
+
 /* Projects At Work */
 
 .project-title{
@@ -288,17 +282,14 @@ padding: 20px;
   border-radius: 5px;
   cursor: pointer;
   }
-  .github-link {
-    text-decoration: none;
-    color: white;
-  }
+  
 .project-at-work {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.26);
   width: 60%;
   margin: 15px auto;
   border-radius: 11px;
   padding: 32px;
-  background: #ececec;
+  background: var(--mainGrey);
   text-align: center;
 
 }
@@ -310,11 +301,11 @@ padding: 20px;
   list-style-type: none;
 }
 .project-at-work a {
-  color:black;
+  color: var(--mainBlack);
   text-decoration: none;
 }
 .project-at-work a:hover {
-  color:#af9a7d;
+  color: var(--mainred);
 }
 .project-at-work p {
   font-size: 16px;
