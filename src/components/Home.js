@@ -10,8 +10,8 @@ const Home = () => {
         <>
             <div id="home">
                 <Banner title="Don't ever let somebody tell you... You can't do something. Not even me. All right? ">
-                    <h1>Hello , I am <span style={{ color: 'lightblue' }}>Malar ruban</span> welcome to my world</h1>
-                    <p>Front-end developer</p>
+                    <h1>Hello , I am <span style={{ color: '#fe346e' }}>Malar ruban</span> welcome to my world</h1>
+                    <p style={{ color: '#fe346e' }}>Front-end developer</p>
                 </Banner>
             </div>
             <About />
