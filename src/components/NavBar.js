@@ -1,51 +1,32 @@
-import React, { Component } from 'react';
-import { FaAlignRight } from 'react-icons/fa';
+import React from 'react';
+import { IoLogoLinkedin, IoLogoGithub } from 'react-icons/io';
 import { Link } from 'react-router-dom';
-import AnchorLink from 'react-anchor-link-smooth-scroll'
+import Resume from '../images/Resume.pdf'
 
-export default class NavBar extends Component {
+export default function NavBar() {
 
-    state = {
-        isOpen: false
-    }
-    handleToggel = () => {
-        this.setState({ isOpen: !this.state.isOpen })
-    }
-    render() {
-        return (
-            <nav className="navbar">
-                <div className="nav-center">
-                    <div className="nav-header">
-                        <Link to="/" className="logo">
-                            {/*<img src={logo} alt="Malar Resort" />*/}
-                            MR
-                        </Link>
-                        <button
-                            type="button"
-                            className="nav-btn"
-                            onClick={this.handleToggel}>
-                            <FaAlignRight className="nav-icon" />
-                        </button>
-                    </div>
-                    <ul className={this.state.isOpen ? "nav-links show-nav" : "nav-links"}>
-                        <li>
-                            <AnchorLink href='#home'>Home</AnchorLink>
-                        </li>
-                        <li>
-                            <AnchorLink href='#about'>About Me</AnchorLink>
-                        </li>
-                        <li>
-                            <AnchorLink href='#personalprojects'>Personal Projects</AnchorLink>
-                        </li>
-                        <li>
-                            <AnchorLink href='#projectsatwork'>Projects At Work</AnchorLink>
-                        </li>
-                        <li>
-                            <a href="https://github.com/malarm/malarruban/blob/master/Resume.pdf" target="_blank">Resume</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        )
-    }
+    return (
+        <nav className="navbar">
+            <div className="nav-header">
+
+                <h1 className="logo">MR</h1>
+            </div>
+            <div className="nav-right">
+                <ul className="nav-links">
+                    <li>
+                        <a target="_blank" href={Resume} download="Resume" >Download My Resume</a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/malarm?tab=repositories" style={{ fontSize: '1.7rem' }} target="_blank"> <IoLogoGithub /></a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/malar-ruban-a02669b5/" style={{ fontSize: '1.7rem' }} target="_blank"> <IoLogoLinkedin /></a>
+                    </li>
+
+
+                </ul>
+            </div>
+        </nav>
+    )
+
 }
