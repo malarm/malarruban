@@ -14,7 +14,7 @@ export default function NavBar() {
             <div className="nav-right">
                 <ul className="nav-links">
                     <li>
-                        <a target="_blank" href={Resume} download="Resume" >Download My Resume</a>
+                        <a target="_blank" href={Resume} download="Malar's-Resume" >Download My Resume</a>
                     </li>
                     <li>
                         <a href="https://github.com/malarm?tab=repositories" style={{ fontSize: '1.7rem' }} target="_blank"> <IoLogoGithub /></a>
