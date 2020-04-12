@@ -27,10 +27,11 @@ body {
   line-height: 1.4;
 }
 h1 {
-  font-size: 2em;
+  font-size: 44px;
   line-height: 1;
   margin-bottom: 0.5em;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #1f1f25;
 }
 h2 {
   font-size: 1.5em;
@@ -46,6 +47,7 @@ h4 {
   font-size: 1.2em;
   line-height: 1.25;
   margin-bottom: 1.25em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 h5 {
   font-size: 1em;
@@ -59,6 +61,7 @@ h6 {
 }
 p {
   font-family: 'Inter',sans-serif;
+  color:#717173;
 }
 
 /* Navbar */
@@ -76,27 +79,18 @@ p {
   display: flex;
   justify-content: space-between;
 }
-.nav-btn {
-  background: transparent;
-  border: none;
-  cursor: pointer;
-  outline: none;
-}
-.nav-icon {
-  font-size: 1.5rem;
-  color: var(--mainred);
-}
+
 .nav-links {
- height: 0;
-  overflow: hidden;
   transition: var(--mainTransition);
   list-style-type: none;
+  display: flex;
+  justify-content: space-between;
 }
 .nav-links a {
   display: block;
   text-decoration: none;
   padding: 1rem 0;
-  color: var(--mainBlack);
+  color: #1d1d24;
   transition: var(--mainTransition);
   text-align: center;
   font-size: 1rem;
@@ -105,20 +99,17 @@ p {
 }
 .nav-links a:hover {
   color: var(--mainred);
-  text-decoration: underline;
+  
 }
 
-.show-nav {
-  height: 280px;
-}
 @media screen and (min-width: 768px) {
-  .nav-btn {
-    display: none;
-  }
-  .nav-center {
+ 
+  .nav-right {
     max-width: 1170px;
-    margin: 0 auto;
-    display: flex;
+   /* margin: 0 auto;
+    display: flex;*/
+    float: right;
+    margin-top: -49px;
   }
   .nav-links {
     height: auto;
@@ -130,68 +121,70 @@ p {
     padding: 0.5rem 0;
   }
 }
-/* end of navbar */
 
 /* Banner */
 .banner {
   display: inline-block;
-  background:lightblue;
-  color: var(--mainBlack);
+   color:black;
   padding: 2rem 1rem;
   text-align: center;
-  text-transform: capitalize;
   letter-spacing: var(--mainSpacing);
-  width:100%;
-  
 }
 .banner h1 {
   font-size: 2.5rem;
 }
-
+/*.banner div {
+  width: 10rem;
+  height: 5px;
+  background: var(--primaryColor);
+  margin: 1.7rem auto;
+}
 .banner p {
   font-size: 1.2rem;
   margin-bottom: 2rem;
-}
+}*/
 @media screen and (min-width: 576px) {
   .banner {
     padding: 2rem 3rem;
   }
   .banner h1 {
-    font-size: 2.6rem;
+    font-size: 3.3rem;
   }
 }
-@media screen and (min-width: 992px) {
+/*@media screen and (min-width: 992px) {
   .banner {
     padding: 2rem 6rem;
   }
- 
-}
+  .banner h1 {
+    font-size: 4rem;
+  }
+}*/
 /* End of Banner */
 
 
 /* logo */
 .logo {
-  font-size: larger;
-    font-weight: bolder;
-    letter-spacing: 4px;
-    text-decoration: none;
-    color: #551a8b;
-    border: 2px solid #000;
-    margin: 3px;
+
+   text-decoration: none;
+    color: #1a202c;
+      margin: 3px;
     padding: 13px;
+    font-size: 30px;
+    cursor: pointer;
 }
 
 /* About */
 .skills {
-   display: grid;
+  display: grid;
   grid-template-columns: repeat(auto-fit, minmax(165px, 1fr));
-   grid-row-gap: 1rem;
-  background: lightblue;
-  padding: 20px;
+  grid-row-gap: 1rem;
+   padding: 20px;
   border-radius: 10px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.26);
+  font-size: 1.5rem;
+  list-style-type: none;
 }
 .about-me {
- /* width: 80vw;*/
   display: grid;
   grid-template-columns: 1fr;
   margin: 2rem auto;
@@ -213,101 +206,93 @@ p {
   }
 }
 
-/* Personal Projects */
+/* Projects */
+.project-container {
+  background: #f7f7f7;
+  margin-bottom: 27px;
+  padding-bottom: 30px;
+}
+.project-title {
+text-align: center;
+padding: 20px;
+font-size: 44px;
+
+}
 .container {
-  background-color: lightblue;
-  border-radius: 10px;
-  padding: 20px;
-  margin: 10px;
+  position: relative;
 }
 .container:hover {
-  background-color: var(--mainred);
-  color: var(--mainWhite);
+  background-color: red;
+  opacity:0.7;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.26);
+  border-radius: 15px;
+ 
 }
-
-.Personal-projects {
+.projects {
   width: 80vw;
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   grid-row-gap: 2rem;
   grid-column-gap: 50px;
+  
 }
 
-.Personal-projects img {
+a {
+  text-decoration: none;
+  color: white;
+}
+.text-block {
+  position: absolute;
+  top: 76%;
+  left: 43%;
+  transform: translate(-50%, -50%);
+  color: white;
+  
+}
+.text-block h4 {
+  font-size: 28px;
+  font-weight: 800;
+}
+button {
+ border-color: hsla(0,0%,100%,.3);
+padding: 12px;
+border-radius: 10px;
+color: white;
+background: none;
+font-size: 17px;
+font-weight: bold;
+font-family: Poppins,sans-serif;
+}
+button:hover{
+  background: #ff2058;
+  border: 2px solid #ff2058;
+}
+.projects img {
   width: 100%;
   display: block;
+  border-radius: 10px;
 }
-.github-link {
-  text-decoration: none;
-  color: var(--mainBlack);
-}
-.imdb-more {
-  margin-left: 53px;
-  margin-top: -33px;
-}
-.resort-more {
-  margin-left: 132px;
-  margin-top: -33px;
-}
+
 @media screen and (min-width: 992px) {
-  .Personal-projects
+ .projects
  {
     width: 95vw;
     max-width: 1170px;
   }
 }
-@media screen and (max-width: 500px) {
-  .imdb-more
- {
-  margin-left: 78px;
-  }
-  .resort-more{
-margin-left: 173px;
-  }
-}
 
-/* Projects At Work */
+/* Hero */
 
-.project-title{
-text-align: center;
-padding: 20px;
+.bannerhero {
+  min-height: calc(100vh - 66px);
+  background: url("./images/defaultBcg.jpeg") center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-  button {
-    font: inherit;
-  background: rgba(0, 0, 0, 0.5);
-  padding: 0.5rem 2rem;
-  border: 1px solid rgba(0, 0, 0, 0.5);
-  margin: 0.5rem 0;
-  border-radius: 5px;
-  cursor: pointer;
-  }
-  
-.project-at-work {
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.26);
-  width: 60%;
-  margin: 15px auto;
-  border-radius: 11px;
-  padding: 32px;
-  background: var(--mainGrey);
-  text-align: center;
-
+.bannerhero {
+  background-image: url("./images/banner.jpg");
+  min-height: 45vh;
 }
-.project-at-work ul {
-  font-size: 20px;
-  font-weight: bold;
- line-height: 40px;
-  letter-spacing: 2px;
-  list-style-type: none;
-}
-.project-at-work a {
-  color: var(--mainBlack);
-  text-decoration: none;
-}
-.project-at-work a:hover {
-  color: var(--mainred);
-}
-.project-at-work p {
-  font-size: 16px;
-  margin-bottom: 0px;
-}
+/* End of Hero */
