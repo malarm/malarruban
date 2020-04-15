@@ -9,6 +9,31 @@ import Euforedrag from '../images/euforedrag.jpg';
 import Notat from '../images/notat.jpg';
 import Cphcasting from '../images/cphcasting.jpg';
 
+// TODO: Making the cards an iterable item:
+// 1. Separate the content into a JSON object:
+// const content = [{
+//      imgSrc: DisplayApi,
+//      title: 'Search and Display data from API',
+//      href: "https://github.com/malarm/React-With-API"
+// },
+// ...]
+// 
+// 2. Create an iteration function for the content Array:
+// {content.map(({ imgSrc, title, href }) => (
+//    // add card component here
+// )}
+// 
+// 3. Rewrite the card component to use variables from the map function
+//    <Card className="container">
+//        <img src={imgSrc} />
+//        <div className="text-block">
+//            <h4>{title}</h4>
+//            <button> <a href={href} target="_blank">VIEW DETAILS</a></button>
+//        </div>
+//    </Card>
+//
+// 4. That's it! Later on this will allow us to use a CMS for the content or separate 
+// content into it's own file and keep the code clean.
 
 const Projects = () => {
     return (
