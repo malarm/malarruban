@@ -16,9 +16,8 @@ function Projects() {
               <div className="text-block">
                 <h4>{title}</h4>
                 <Button>
-                  {" "}
-                  <a href={href} target="_blank" className="viewproject-button">
-                    View project{" "}
+                   <a href={href} target="_blank" className="viewproject-button">
+                    View project
                     <span>
                       <FaArrowRight />
                     </span>
