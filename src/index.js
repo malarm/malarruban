@@ -1,12 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { BrowserRouter as Router } from "react-router-dom";
-import App from "./App";
+import Home from "./components/Home";
+import NavBar from "./components/NavBar";
+import "./App.css";
 
-ReactDOM.render(
-  <Router>
-    <App />
-  </Router>,
-
-  document.getElementById("root")
-);
+export default function App() {
+  return (
+    <>
+      <NavBar />
+      <Home />
+    </>
+  );
+}
+ReactDOM.render(<App />, document.getElementById("root"));
