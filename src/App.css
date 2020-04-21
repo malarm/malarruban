@@ -214,7 +214,7 @@ p {
   position: relative;
 }
 .container:hover .overlay {
-  /*  background: #1f1f25;
+  /* background: rgba(0, 0, 0, 0.6);
   opacity: 1;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.26);
   border-radius: 15px;*/
@@ -267,6 +267,7 @@ p {
   padding: 14px;
   display: inline-flex;
 }
+
 /*.middle {
   transition: 0.5s ease;
   opacity: 0;
@@ -324,6 +325,7 @@ a {
   left: 43%;
   transform: translate(-50%, -50%);
   color: white;
+  opacity: 1;
 }
 .text-block h4 {
   font-size: 26px;
@@ -338,7 +340,22 @@ a {
 .projects img:hover {
   opacity: 0.3;
 }
-/*.viewproject-button {
+/*.viewproject {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  width: 89%;
+  font-family: "Inter", sans-serif;
+}
+.viewproject:hover {
+  opacity: 1;
+}
+.viewproject-button {
   color: #1f1f25;
   background: gray;
   padding: 15px;
@@ -371,3 +388,65 @@ a {
   min-height: 45vh;
 }
 /* End of Hero */
+.input-tag {
+  display: flex;
+  /* background: white;
+  border: 1px solid #d6d6d6;
+  border-radius: 2px;
+  flex-wrap: wrap;
+  padding: 5px 5px 0;*/
+}
+
+.input-tag input {
+  border: none;
+  width: 100%;
+}
+
+.input-tag__tags {
+  display: inline-flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.input-tag__tags li {
+  align-items: center;
+  background: #85a3bf;
+  border-radius: 2px;
+  color: white;
+  display: flex;
+  font-weight: 300;
+  list-style: none;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  padding: 5px 10px;
+  position: absolute;
+  top: 50%;
+  left: 9%;
+}
+
+.input-tag__tags li button {
+  align-items: center;
+  appearance: none;
+  background: #333333;
+  border: none;
+  border-radius: 50%;
+  color: white;
+  cursor: pointer;
+  display: inline-flex;
+  font-size: 12px;
+  height: 15px;
+  justify-content: center;
+  line-height: 0;
+  margin-left: 8px;
+  padding: 0;
+  transform: rotate(45deg);
+  width: 15px;
+}
+
+.input-tag__tags li.input-tag__tags__input {
+  background: none;
+  flex-grow: 1;
+  padding: 0;
+}
