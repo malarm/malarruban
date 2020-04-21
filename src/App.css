@@ -246,7 +246,7 @@ p {
   text-align: center;
   width: 89%;
 }
-.used-tech {
+/*.used-tech {
   position: absolute;
   top: 64%;
   left: 50%;
@@ -255,7 +255,7 @@ p {
   transform: translate(-50%, -50%);
   text-align: center;
   width: 89%;
-}
+}*/
 .viewproject-button {
   position: absolute;
   top: 89%;
