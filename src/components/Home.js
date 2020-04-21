@@ -1,25 +1,24 @@
-import React from 'react';
-import Banner from './Banner';
-import ProjectsAtWork from './Projects-At-Work';
-import About from './About';
-import PersonalProjects from './Personal-Projects';
-import Personal from './PersonalProjects'
+import React from "react";
+import Banner from "./Banner";
+import Hero from "./Hero";
+import About from "./About";
+import Projects from "./Projects";
 
 const Home = () => {
-    return (
-        <>
-            <div id="home">
-                <Banner title="Don't ever let somebody tell you... You can't do something. Not even me. All right? ">
-                    <h1>Hello , I am <span style={{ color: 'lightblue' }}>Malar ruban</span> welcome to my world</h1>
-                    <p>Front-end developer</p>
-                </Banner>
-            </div>
-            <About />
-
-            <Personal />
-            <ProjectsAtWork />
-        </>
-    )
-
-}
-export default Home
+  return (
+    <>
+      <Hero hero="bannerhero">
+        <Banner>
+          <h1>
+            Hello , I am <span style={{ color: "#ff2058" }}>Malar</span> welcome
+            to my world
+          </h1>
+          <h4 style={{ color: "#343a40" }}>Front-end developer</h4>
+        </Banner>
+      </Hero>
+      <About />
+      <Projects />
+    </>
+  );
+};
+export default Home;
