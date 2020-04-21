@@ -7,15 +7,6 @@ import Undervisning from "../images/undervisning.jpg";
 import Euforedrag from "../images/euforedrag.jpg";
 import Notat from "../images/notat.jpg";
 import Cphcasting from "../images/cphcasting.jpg";
-import { IoLogoJavascript, IoLogoHtml5, IoLogoCss3 } from "react-icons/io";
-import {
-  FaReact,
-  FaBootstrap,
-  FaGitSquare,
-  FaWordpress,
-  FaPhp,
-  FaDrupal,
-} from "react-icons/fa";
 
 const content = [
   {
@@ -24,12 +15,13 @@ const content = [
     href: "https://github.com/malarm/React-With-API",
     description:
       "A website to a company that rents out summer houses Two main features : The first feature is to demonstrate property details. The second feature is to show the trarrif range in the filter. ",
+    usedTechnologies: "React, HTML5, CSS3, API",
+    /* usedTechnologies: ["html", "react"],*/
     project: "Personal",
-    usedTechnologies: (
-      <>
-        <FaReact />, <IoLogoHtml5 /> , <IoLogoCss3 /> And API
-      </>
-    ),
+    /* react: "React",
+    html: "HTML5",
+    css: "CSS3",
+    api: "API",*/
   },
   {
     imgSrc: Resort,
@@ -37,15 +29,14 @@ const content = [
     href: "https://github.com/malarm/malarresort",
     description:
       " Developed this website for a resort having the search function as the vital function. Web API is an important feature.",
-
+    usedTechnologies: "React,React Router, React Icons,HTML5, CSS3,",
     project: "Personal",
-    usedTechnologies: (
-      <>
-        <FaReact />
-        , React Router, React Icons, <IoLogoHtml5 /> , <IoLogoCss3 /> And
-        contentful API
-      </>
-    ),
+    /*  react: "React",
+    router: "React Router",
+    icons: "React Icons",
+    html: "HTML5",
+    css: "CSS3",
+    api: "API",*/
   },
   {
     imgSrc: Movie,
