@@ -11,25 +11,25 @@ function Projects() {
         {Content.map(
           ({ imgSrc, title, href, description, project, usedTechnologies }) => (
             <Card className="container">
-              <img src={imgSrc} />
-              <label>{project}</label>
-              <div className="text-block">
-                <h4>{title}</h4>
-                <Button>
-                   <a href={href} target="_blank" className="viewproject-button">
-                    View project
-                    <span>
-                      <FaArrowRight />
-                    </span>
-                  </a>
-                </Button>
-              </div>
-              <div className="middle">
-                <div className="project-desc">{description}</div>
-                <div className="used-tech">
-                  Used Technologies : {usedTechnologies}
+              <a href={href} target="_blank">
+                <img src={imgSrc} />
+
+                <label>{project}</label>
+                <div className="text-block">
+                  <h4>{title}</h4>
                 </div>
-              </div>
+
+                <div className="overlay">
+                  <div className="project-desc">{description}</div>
+                  <div className="used-tech">{usedTechnologies}</div>
+                  <div className="viewproject-button">
+                    <div>View Project</div>
+                    <div style={{ padding: "3px" }}>
+                      <FaArrowRight />
+                    </div>
+                  </div>
+                </div>
+              </a>
             </Card>
           )
         )}
