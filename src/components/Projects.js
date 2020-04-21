@@ -21,11 +21,7 @@ function Projects() {
 
                 <div className="overlay">
                   <div className="project-desc">{description}</div>
-                  <div className="input-tag">
-                    <ul className="input-tag__tags">
-                      <li> {usedTechnologies}</li>
-                    </ul>
-                  </div>
+                  <div className="used-tech">{usedTechnologies}</div>
                   <div className="viewproject-button">
                     <div>View Project</div>
                     <div style={{ padding: "3px" }}>
