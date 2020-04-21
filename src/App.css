@@ -218,7 +218,7 @@ p {
   opacity: 1;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.26);
   border-radius: 15px;*/
-  opacity: 1;
+  opacity: 75%;
 }
 .overlay {
   position: absolute;
@@ -338,7 +338,7 @@ a {
 .projects img:hover {
   opacity: 0.3;
 }
-.viewproject-button {
+/*.viewproject-button {
   color: #1f1f25;
   background: gray;
   padding: 15px;
@@ -349,7 +349,7 @@ a {
   border: 2px solid #ff2058;
   color: white;
   cursor: pointer;
-}
+}*/
 @media screen and (min-width: 992px) {
   .projects {
     width: 95vw;
