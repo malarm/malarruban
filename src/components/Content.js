@@ -15,8 +15,8 @@ const content = [
     href: "https://github.com/malarm/React-With-API",
     description:
       "A website to a company that rents out summer houses Two main features : The first feature is to demonstrate property details. The second feature is to show the trarrif range in the filter. ",
-    usedTechnologies: "React, HTML5, CSS3, API",
-    /* usedTechnologies: ["html", "react"],*/
+    /* usedTechnologies: "React, HTML5, CSS3, API",*/
+    usedTechnologies: ["React", "Html5", "CSS3", "API"],
     project: "Personal",
     /* react: "React",
     html: "HTML5",
@@ -29,7 +29,7 @@ const content = [
     href: "https://github.com/malarm/malarresort",
     description:
       " Developed this website for a resort having the search function as the vital function. Web API is an important feature.",
-    usedTechnologies: "React,React Router, React Icons,HTML5, CSS3,",
+    usedTechnologies: ["React", "React Router", "React Icons", "HTML5", "CSS3"],
     project: "Personal",
     /*  react: "React",
     router: "React Router",
@@ -45,8 +45,14 @@ const content = [
     description:
       "Developed this website to  learn to use web API. The website has a search function where we can insert one or many IMDB IDs.  ",
     project: "Personal",
-    usedTechnologies:
-      "C#, ASP.NET.Core, API, Entity framework, MS SQL, Bootstrap",
+    usedTechnologies: [
+      "C#",
+      "ASP.NET.Core",
+      "API",
+      "Entity framework",
+      "MS SQL",
+      "Bootstrap",
+    ],
   },
   {
     imgSrc: Deo,
@@ -56,7 +62,18 @@ const content = [
       "Built this website and maintained on a daily basis and making the registration page for participants was an integral part of work. ",
     project: "Work",
     usedTechnologies:
-      "C#, ASP.NET MVC, Umbraco, Visual studio, Entity framework, SQL, Html5, CSS3, Javascript",
+      /* "C#, ASP.NET MVC, Umbraco, Visual studio, Entity framework, SQL, Html5, CSS3, Javascript",*/
+      [
+        "C#",
+        "ASP.NET.Core",
+        "Umbraco",
+        "Visual studio",
+        "Entity framework",
+        "SQL",
+        "Html5",
+        "CSS3",
+        "Javascript",
+      ],
   },
   {
     imgSrc: Undervisning,
@@ -66,7 +83,17 @@ const content = [
       "I worked on this project from the beginning to end singlehandedly.  ",
     project: "Work",
     usedTechnologies:
-      "C#, ASP.NET MVC, Umbraco, Visual studio, SQL, Html5, CSS3, Javascript",
+      /* "C#, ASP.NET MVC, Umbraco, Visual studio, SQL, Html5, CSS3, Javascript",*/
+      [
+        "C#",
+        "ASP.NET.Core",
+        "Umbraco",
+        "Visual studio",
+        "SQL",
+        "Html5",
+        "CSS3",
+        "Javascript",
+      ],
   },
   {
     imgSrc: Euforedrag,
@@ -74,8 +101,16 @@ const content = [
     href: "http://www.euforedrag.dk/",
     description: "I took care of the maintenance work. ",
     project: "Work",
-    usedTechnologies:
-      "C#, ASP.NET MVC, Umbraco, Visual studio, SQL, Html5, CSS3",
+    usedTechnologies: [
+      "C#",
+      "ASP.NET.Core",
+      "Umbraco",
+      "Visual studio",
+      "SQL",
+      "Html5",
+      "CSS3",
+    ],
+    /* "C#, ASP.NET MVC, Umbraco, Visual studio, SQL, Html5, CSS3",*/
   },
   {
     imgSrc: Notat,
@@ -83,8 +118,16 @@ const content = [
     href: "http://notat.dk/",
     description: "I developed  and maintained  this project . ",
     project: "Work",
-    usedTechnologies:
-      "C#, ASP.NET MVC, Umbraco, Visual studio, SQL, Html5, CSS3",
+    usedTechnologies: [
+      "C#",
+      "ASP.NET.Core",
+      "Umbraco",
+      "Visual studio",
+      "SQL",
+      "Html5",
+      "CSS3",
+    ],
+    /* "C#, ASP.NET MVC, Umbraco, Visual studio, SQL, Html5, CSS3",*/
   },
   {
     imgSrc: Cphcasting,
@@ -93,7 +136,14 @@ const content = [
     description:
       "I was part of a team of two people who developed and maintained this big project. I developed several modules and contributed significantly to build search function which is an important feature.  ",
     project: "Work",
-    usedTechnologies: "PHP, Drupal, Wordpress , HTML, CSS, Javascript",
+    usedTechnologies: [
+      "PHP",
+      "Drupal, Wordpress ",
+      "HTML",
+      "CSS",
+      "Javascript",
+    ],
+    /*"PHP, Drupal, Wordpress , HTML, CSS, Javascript",*/
   },
 ];
 export default content;
