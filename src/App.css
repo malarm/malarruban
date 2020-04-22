@@ -213,7 +213,7 @@ p {
 .container {
   position: relative;
 }
-.container:hover .overlay {
+.overlay:hover {
   /* background: rgba(0, 0, 0, 0.6);
   opacity: 1;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.26);
