@@ -213,12 +213,12 @@ p {
 .container {
   position: relative;
 }
-.overlay:hover {
+.container:hover .overlay {
   /* background: rgba(0, 0, 0, 0.6);
   opacity: 1;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.26);
   border-radius: 15px;*/
-  opacity: 70%;
+  opacity: 1;
 }
 .overlay {
   position: absolute;
@@ -397,7 +397,23 @@ a {
   padding: 5px 5px 0;*/
 }
 
-.input-tag input {
+.input-tag ul {
+  margin: -0.25rem;
+  display: flex;
+  list-style-type: none;
+}
+.input-tag ul li {
+  margin-right: 0.25rem;
+  margin-left: 0.25rem;
+  background-color: var(--mainred);
+  color: white;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  border-radius: 0.25rem;
+}
+/*.input-tag input {
   border: none;
   width: 100%;
 }
@@ -449,4 +465,4 @@ a {
   background: none;
   flex-grow: 1;
   padding: 0;
-}
+}*/
