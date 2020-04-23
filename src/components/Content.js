@@ -15,13 +15,8 @@ const content = [
     href: "https://github.com/malarm/React-With-API",
     description:
       "A website to a company that rents out summer houses Two main features : The first feature is to demonstrate property details. The second feature is to show the trarrif range in the filter. ",
-    /* usedTechnologies: "React, HTML5, CSS3, API",*/
     usedTechnologies: ["React", "Html5", "CSS3", "API"],
     project: "Personal",
-    /* react: "React",
-    html: "HTML5",
-    css: "CSS3",
-    api: "API",*/
   },
   {
     imgSrc: Resort,
@@ -31,12 +26,6 @@ const content = [
       " Developed this website for a resort having the search function as the vital function. Web API is an important feature.",
     usedTechnologies: ["React", "React Router", "React Icons", "HTML5", "CSS3"],
     project: "Personal",
-    /*  react: "React",
-    router: "React Router",
-    icons: "React Icons",
-    html: "HTML5",
-    css: "CSS3",
-    api: "API",*/
   },
   {
     imgSrc: Movie,
@@ -61,19 +50,17 @@ const content = [
     description:
       "Built this website and maintained on a daily basis and making the registration page for participants was an integral part of work. ",
     project: "Work",
-    usedTechnologies:
-      /* "C#, ASP.NET MVC, Umbraco, Visual studio, Entity framework, SQL, Html5, CSS3, Javascript",*/
-      [
-        "C#",
-        "ASP.NET.Core",
-        "Umbraco",
-        "Visual studio",
-        "Entity framework",
-        "SQL",
-        "Html5",
-        "CSS3",
-        "Javascript",
-      ],
+    usedTechnologies: [
+      "C#",
+      "ASP.NET.Core",
+      "Umbraco",
+      "Visual studio",
+      "Entity framework",
+      "SQL",
+      "Html5",
+      "CSS3",
+      "Javascript",
+    ],
   },
   {
     imgSrc: Undervisning,
@@ -82,18 +69,16 @@ const content = [
     description:
       "I worked on this project from the beginning to end singlehandedly.  ",
     project: "Work",
-    usedTechnologies:
-      /* "C#, ASP.NET MVC, Umbraco, Visual studio, SQL, Html5, CSS3, Javascript",*/
-      [
-        "C#",
-        "ASP.NET.Core",
-        "Umbraco",
-        "Visual studio",
-        "SQL",
-        "Html5",
-        "CSS3",
-        "Javascript",
-      ],
+    usedTechnologies: [
+      "C#",
+      "ASP.NET.Core",
+      "Umbraco",
+      "Visual studio",
+      "SQL",
+      "Html5",
+      "CSS3",
+      "Javascript",
+    ],
   },
   {
     imgSrc: Euforedrag,
@@ -110,7 +95,6 @@ const content = [
       "Html5",
       "CSS3",
     ],
-    /* "C#, ASP.NET MVC, Umbraco, Visual studio, SQL, Html5, CSS3",*/
   },
   {
     imgSrc: Notat,
@@ -127,7 +111,6 @@ const content = [
       "Html5",
       "CSS3",
     ],
-    /* "C#, ASP.NET MVC, Umbraco, Visual studio, SQL, Html5, CSS3",*/
   },
   {
     imgSrc: Cphcasting,
@@ -143,7 +126,6 @@ const content = [
       "CSS",
       "Javascript",
     ],
-    /*"PHP, Drupal, Wordpress , HTML, CSS, Javascript",*/
   },
 ];
 export default content;
