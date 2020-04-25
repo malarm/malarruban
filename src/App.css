@@ -213,13 +213,10 @@ p {
 .container {
   position: relative;
 }
- /*.container:hover .overlay {
-  background: rgba(0, 0, 0, 0.6);
+.image {
   opacity: 1;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.26);
-  border-radius: 15px;
-  opacity: 70%;
-}*/
+  transition: 0.5s ease;
+}
 .overlay {
   position: absolute;
   top: 0;
@@ -235,7 +232,14 @@ p {
   color: white;
   font-size: 18px;
 }
+.container:hover .image {
+  opacity: 70%;
+}
 .container:hover .overlay {
+  /* background: rgba(0, 0, 0, 0.6);
+  opacity: 1;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.26);
+  border-radius: 15px; */
   opacity: 70%;
 }
 .project-desc {
