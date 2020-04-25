@@ -213,13 +213,13 @@ p {
 .container {
   position: relative;
 }
-.container:hover .overlay {
-  /* background: rgba(0, 0, 0, 0.6);
+ /*.container:hover .overlay {
+  background: rgba(0, 0, 0, 0.6);
   opacity: 1;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.26);
-  border-radius: 15px;*/
+  border-radius: 15px;
   opacity: 70%;
-}
+}*/
 .overlay {
   position: absolute;
   top: 0;
@@ -234,6 +234,9 @@ p {
   font-family: "Inter", sans-serif;
   color: white;
   font-size: 18px;
+}
+.overlay:hover {
+  opacity: 70%;
 }
 .project-desc {
   position: absolute;
