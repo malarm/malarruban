@@ -232,7 +232,7 @@ p {
   color: white;
   font-size: 18px;
 }
-.container:hover .image {
+.container:hover .img {
   opacity: 70%;
 }
 .container:hover .overlay {
@@ -356,9 +356,9 @@ a {
   display: block;
   border-radius: 10px;
 }
-.projects img:hover {
+/*.projects img:hover {
   opacity: 0.3;
-}
+}/*
 /*.viewproject {
   transition: 0.5s ease;
   opacity: 0;
