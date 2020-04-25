@@ -12,7 +12,7 @@ function Projects() {
           ({ imgSrc, title, href, description, project, usedTechnologies }) => (
             <Card className="container">
               <a href={href} target="_blank">
-                <img src={imgSrc} className="image" />
+                <img src={imgSrc} />
 
                 <label>{project}</label>
                 <div className="text-block">
