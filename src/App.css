@@ -228,14 +228,14 @@ p {
   right: 0;
   height: 100%;
   width: 100%;
-
+  opacity: 0;
   transition: 0.5s ease;
-
+  background-color: #000;
   font-family: "Inter", sans-serif;
   color: white;
   font-size: 18px;
 }
-.container:hover .project-desc {
+.container:hover .overlay {
   opacity: 70%;
 }
 .project-desc {
@@ -247,7 +247,6 @@ p {
   transform: translate(-50%, -50%);
   text-align: center;
   width: 89%;
-  opacity: 0;
 }
 .used-tech {
   position: absolute;
@@ -258,7 +257,6 @@ p {
   transform: translate(-50%, -50%);
   text-align: center;
   width: 89%;
-  opacity: 0;
 }
 .used-tech ul {
   display: flex;
@@ -283,7 +281,6 @@ p {
   cursor: pointer;
   padding: 14px;
   display: inline-flex;
-  opacity: 0;
 }
 
 /*.middle {
