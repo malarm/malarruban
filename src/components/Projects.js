@@ -1,5 +1,4 @@
 import React from "react";
-import { Card, CardActions, Button } from "@material-ui/core";
 import Content from "./Content";
 import { FaArrowRight } from "react-icons/fa";
 
@@ -17,7 +16,6 @@ function Projects() {
                 <div className="text-block">
                   <h4>{title}</h4>
                 </div>
-
                 <div className="overlay">
                   <div className="project-desc">{description}</div>
                   <div className="used-tech">
