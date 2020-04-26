@@ -18,7 +18,7 @@ function Projects() {
                   <h4>{title}</h4>
                 </div>
 
-                <div className="middle">
+                <div className="overlay">
                   <div className="project-desc">{description}</div>
                   <div className="used-tech">
                     <ul>
