@@ -213,8 +213,14 @@ p {
 .container {
   position: relative;
 }
-
-/*.overlay {
+/*.container:hover .overlay {
+  background: rgba(0, 0, 0, 0.6);
+  opacity: 1;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.26);
+  border-radius: 15px;
+  opacity: 70%;
+}*/
+.overlay {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -222,22 +228,17 @@ p {
   right: 0;
   height: 100%;
   width: 100%;
-  opacity: 0;
+
   transition: 0.5s ease;
-  background-color: #000;
+
   font-family: "Inter", sans-serif;
   color: white;
   font-size: 18px;
-}*/
-
-.container:hover .middle {
-  /* background: rgba(0, 0, 0, 0.6);
-  opacity: 1;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.26);
-  border-radius: 15px; */
+}
+.container:hover .project-desc {
   opacity: 70%;
 }
-/*.project-desc {
+.project-desc {
   position: absolute;
   top: 29%;
   left: 50%;
@@ -246,6 +247,7 @@ p {
   transform: translate(-50%, -50%);
   text-align: center;
   width: 89%;
+  opacity: 0;
 }
 .used-tech {
   position: absolute;
@@ -256,6 +258,7 @@ p {
   transform: translate(-50%, -50%);
   text-align: center;
   width: 89%;
+  opacity: 0;
 }
 .used-tech ul {
   display: flex;
@@ -268,7 +271,7 @@ p {
   margin: 3px;
   padding: 7px;
   border-radius: 5px;
-}*/
+}
 .viewproject-button {
   position: absolute;
   top: 89%;
@@ -280,37 +283,33 @@ p {
   cursor: pointer;
   padding: 14px;
   display: inline-flex;
+  opacity: 0;
 }
 
-.middle {
+/*.middle {
   transition: 0.5s ease;
   opacity: 0;
   position: absolute;
-  top: 50%;
+  top: 35%;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  text-align: center;
-  background-color: #000;
-  height: 100%;
-  width: 100%;
-}
-.project-desc {
-  position: absolute;
-  top: 29%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
   text-align: center;
   width: 89%;
+  font-family: "Inter", sans-serif;
+}
+.project-desc {
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+  border-radius: 15px;
 }
 .used-tech {
   color: white;
   font-size: 16px;
   padding: 16px 32px;
   border-radius: 15px;
-}
+}*/
 label {
   position: absolute;
   top: 0;
