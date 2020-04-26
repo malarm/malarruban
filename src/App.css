@@ -263,8 +263,8 @@ p {
 }
 .used-tech {
   position: absolute;
-  top: 57%;
-  left: 50%;
+  top: 99%;
+  left: 99%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
@@ -285,8 +285,8 @@ p {
 }
 .viewproject-button {
   position: absolute;
-  top: 89%;
-  left: 50%;
+  top: 141%;
+  left: 96%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
@@ -294,6 +294,7 @@ p {
   cursor: pointer;
   padding: 14px;
   display: inline-flex;
+  width: 60%;
 }
 
 /*.middle {
