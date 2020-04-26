@@ -10,7 +10,7 @@ function Projects() {
       <div className="projects">
         {Content.map(
           ({ imgSrc, title, href, description, project, usedTechnologies }) => (
-            <Card className="container">
+            <div className="container">
               <a href={href} target="_blank">
                 <img src={imgSrc} />
                 <label>{project}</label>
@@ -35,7 +35,7 @@ function Projects() {
                   </div>
                 </div>
               </a>
-            </Card>
+            </div>
           )
         )}
       </div>
