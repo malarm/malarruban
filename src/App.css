@@ -8,7 +8,7 @@
   --offWhite: #f7f7f7;
   --mainBlack: #222;
   --mainGrey: #ececec;
-  --darkGrey: #cfcfcf;
+  --darkGrey: #808080;
   --mainred: #fe346e;
   --mainTransition: all 0.3s linear;
   --mainSpacing: 2px;
@@ -117,7 +117,19 @@ p {
     padding: 0.5rem 0;
   }
 }
+/* Hero */
 
+.bannerhero {
+  background: url("./images/defaultBcg.jpeg") center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bannerhero {
+  background-image: url("./images/banner.jpg");
+  min-height: 45vh;
+}
+/* End of Hero */
 /* Banner */
 .banner {
   display: inline-block;
@@ -127,7 +139,7 @@ p {
   letter-spacing: var(--mainSpacing);
 }
 .banner h1 {
-  font-size: 2.5rem;
+  font-size: 1.5rem;
 }
 /*.banner div {
   width: 10rem;
@@ -171,17 +183,27 @@ p {
 .skills {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(165px, 1fr));
-  grid-row-gap: 1rem;
-  padding: 20px;
+  grid-row-gap: 0.1rem;
+  padding: 10px;
   border-radius: 10px;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.26);
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   list-style-type: none;
+  font-family: "Inter", sans-serif;
+}
+.skills li {
+  background-color: var(--darkGrey);
+  margin: 4px;
+  padding: 4px;
+  border-radius: 5px;
+  color: white;
+  text-align: center;
 }
 .about-me {
   display: grid;
   grid-template-columns: 1fr;
   margin: 2rem auto;
+  width: 95vw;
 }
 .profile-picture,
 .description {
@@ -189,7 +211,6 @@ p {
 }
 @media screen and (min-width: 992px) {
   .about-me {
-    width: 95vw;
     max-width: 1170px;
     display: flex;
   }
@@ -213,6 +234,7 @@ p {
 .container {
   position: relative;
   background-color: #000;
+  border-radius: 10px;
 }
 /*.container:hover .overlay {
   background: rgba(0, 0, 0, 0.6);
@@ -277,7 +299,7 @@ p {
   list-style-type: none;
 }
 .used-tech li {
-  background-color: var(--mainred);
+  background-color: var(--darkGrey);
   color: white;
   margin: 3px;
   padding: 7px;
@@ -402,18 +424,3 @@ a {
     max-width: 1170px;
   }
 }
-
-/* Hero */
-
-.bannerhero {
-  min-height: calc(100vh - 66px);
-  background: url("./images/defaultBcg.jpeg") center/cover no-repeat;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.bannerhero {
-  background-image: url("./images/banner.jpg");
-  min-height: 45vh;
-}
-/* End of Hero */
