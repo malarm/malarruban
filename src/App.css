@@ -40,6 +40,7 @@ h3 {
   font-size: 1.4em;
   line-height: 1;
   margin-bottom: 1em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 h4 {
   font-size: 1.2em;
@@ -198,7 +199,7 @@ p {
 
 /* Projects */
 .project-container {
-  background: #f7f7f7;
+  background: white;
   margin-bottom: 27px;
   padding-bottom: 30px;
 }
@@ -329,5 +330,23 @@ a {
 @media screen and (min-width: 992px) {
   .projects {
     max-width: 1170px;
+  }
+}
+/* Footer */
+.footer {
+  background: #f7f7f7;
+  padding: 5rem;
+  text-align: center;
+}
+.footer h1 {
+  font-size: 35px;
+}
+.footer h3 {
+  color: #717173;
+  margin-bottom: 0.5em;
+}
+@media screen and (max-width: 576px) {
+  .footer h1 {
+    font-size: 20px;
   }
 }
