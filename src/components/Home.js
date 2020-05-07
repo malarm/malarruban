@@ -3,7 +3,7 @@ import Banner from "./Banner";
 import Hero from "./Hero";
 import About from "./About";
 import Projects from "./Projects";
-
+import Footer from "./footer";
 const Home = () => {
   return (
     <>
@@ -18,6 +18,7 @@ const Home = () => {
       </Hero>
       <About />
       <Projects />
+      <Footer />
     </>
   );
 };
