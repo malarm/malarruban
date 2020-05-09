@@ -203,10 +203,15 @@ p {
   margin-bottom: 27px;
   padding-bottom: 30px;
 }
-.project-title {
+.project-container h1 {
   text-align: center;
-  padding: 20px;
   font-size: 44px;
+}
+.project-container h3 {
+  color: #717173;
+  font-size: 20px;
+  text-align: center;
+  line-height: 1.5em;
 }
 .container {
   position: relative;
@@ -267,7 +272,7 @@ p {
   list-style-type: none;
 }
 .used-tech li {
-  background-color: var(--darkGrey);
+  background-color: #f9004d;
   color: white;
   margin: 3px;
   padding: 7px;
@@ -288,15 +293,9 @@ p {
 }
 
 label {
-  position: absolute;
-  top: 0;
-  left: 0;
-  /* background: rgba(0, 0, 0, 0.8);*/
-  background: gray;
+  font-size: 1.6rem;
   color: var(--mainWhite);
-  padding: 0.3rem 0.6rem 0.5rem;
-  border-bottom-right-radius: 1rem;
-  font-size: 0.9rem;
+  padding: 10rem;
   font-family: Poppins, sans-serif;
   text-align: center;
   transition: var(--mainTransition);
@@ -317,14 +316,16 @@ a {
 .text-block {
   position: absolute;
   top: 76%;
-  left: 43%;
+  left: 50%;
   transform: translate(-50%, -50%);
   color: white;
   opacity: 1;
 }
 .text-block h4 {
-  font-size: 26px;
-  font-weight: 800;
+  font-size: 40px;
+  font-weight: bold;
+  width: 10em;
+  text-align: center;
 }
 
 @media screen and (min-width: 992px) {
