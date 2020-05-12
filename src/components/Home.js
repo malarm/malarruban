@@ -9,11 +9,10 @@ const Home = () => {
     <>
       <Hero hero="bannerhero">
         <Banner>
-          <h1 style={{ color: "#ffffff", marginTop: "60px" }}>
-            Hello, I am <span style={{ color: "#ff2058" }}>Malar</span> welcome
-            to my world
-          </h1>
-          <h4 style={{ color: "#ffffff" }}>Front-end developer</h4>
+          <h2 style={{ marginTop: "7.5em", fontSize: "2.3em" }}>
+            Hi, I'm Malar <br />
+            I'm front-end developer.
+          </h2>
         </Banner>
       </Hero>
       <About />
