@@ -9,7 +9,7 @@ const Home = () => {
     <>
       <Hero hero="bannerhero">
         <Banner>
-          <h2 style={{ marginTop: "7.5em", fontSize: "2.3em" }}>
+          <h2>
             Hi, I'm Malar <br />
             I'm front-end developer.
           </h2>
