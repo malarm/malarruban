@@ -8,10 +8,7 @@ const About = () => {
     <div style={{ backgroundColor: "#f7f7f7" }}>
       <section className="about-me">
         <article className="profile-picture">
-          <img
-            src={Malar}
-            style={{ height: "300px", borderRadius: "150px", margin: "50px" }}
-          />
+          <img src={Malar} />
           <button className="fullresume">
             <a target="_blank" href={Resume} download="Malar's-Resume">
               Download full resume
