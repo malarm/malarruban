@@ -1,5 +1,7 @@
 import React from "react";
 import Malar from "../images/Malar.jpg";
+import Skills from "./TabList";
+import Resume from "../images/Resume.pdf";
 
 const About = () => {
   return (
@@ -8,8 +10,13 @@ const About = () => {
         <article className="profile-picture">
           <img
             src={Malar}
-            style={{ height: "300px", borderRadius: "10px", margin: "42px" }}
+            style={{ height: "300px", borderRadius: "150px", margin: "50px" }}
           />
+          <button className="fullresume">
+            <a target="_blank" href={Resume} download="Malar's-Resume">
+              Download full resume
+            </a>
+          </button>
         </article>
 
         <article className="description">
@@ -29,43 +36,7 @@ const About = () => {
             forthcoming career,I can already assist you with web development and
             software development tasks.
           </p>
-          <h1 style={{ margin: "8px" }}>Skills</h1>
-          {/* <ul className="skills">
-                    <li><FaReact /></li>
-                    <li><IoLogoJavascript /></li>
-                    <li><IoLogoHtml5 /> </li>
-                    <li><IoLogoCss3 /></li>
-                    <li><FaBootstrap /></li>
-                    <li>SCSS</li>
-                    <li><img src={Nextjs} /></li>
-                    <li><FaGitSquare /></li>
-                    <li><img src={Net} /></li>
-                    <li><img src={UmbracoLogo} /></li>
-                    <li><img src={SQL} /></li>
-                    <li><FaWordpress /></li>
-                    <li><FaDrupal /></li>
-                    <li><FaPhp /></li>
-                    <li><img src={VisualStudio} /> </li>
-                    <li><img src={Agile} /></li>
-                </ul> */}
-          <ul className="skills">
-            <li>React</li>
-            <li>JavaScript</li>
-            <li>HTML5</li>
-            <li>CSS3</li>
-            <li>Bootstrap</li>
-            <li>SCSS</li>
-            <li>Next</li>
-            <li>Git</li>
-            <li>.Net</li>
-            <li>Umbraco</li>
-            <li>SQL</li>
-            <li>WordPress</li>
-            <li>Drupal</li>
-            <li>PHP</li>
-            <li>VisualStudio</li>
-            <li>Agile</li>
-          </ul>
+          <Skills />
         </article>
       </section>
     </div>
