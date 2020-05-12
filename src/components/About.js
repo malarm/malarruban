@@ -18,20 +18,14 @@ const About = () => {
 
         <article className="description">
           <h1>About Me</h1>
-          <p>
-            Like you, I am unique in my own way. My uniqueness lies in the fact
-            that I fight back and keep moving, no matter how hard I get hit. As
-            a woman, mother to two young children and an expat from India to
-            Denmark, my life has demanded a lot of flexibilities and sacrifices
-            in my career.
+         <p>
+            I have a MSc in Computer Applications and Wide practical experience
+            across several modern technologies.
           </p>
           <br />
           <p>
-            Time has come for me to do justice for my master in Computer
-            Application and career thirst to be actively contributing to the
-            digital world. While there is much I can and should learn in my
-            forthcoming career,I can already assist you with web development and
-            software development tasks.
+            I have an eye for details, I’m an executor by heart, and people know
+            me for my commitment, Positive attitude and teamwork.
           </p>
           <Skills />
         </article>
