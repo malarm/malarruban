@@ -7,7 +7,7 @@ const Skills = () => {
     <Tabs>
       <TabList className="data-reach-tab">
         <Tab>Main Skills</Tab>
-        <Tab>Experenience</Tab>
+        <Tab>Experience</Tab>
         <Tab>Education</Tab>
       </TabList>
       <TabPanels>
@@ -22,8 +22,8 @@ const Skills = () => {
             backend, databases, 3rd party integrations and infrastructure.
           </p>
           <p>
-            <b> CMS.</b> I spent years working in Umbraco , Drupal and Wordpress
-            setups and know my way around.
+            <b> CMS.</b> I have spent years working in Umbraco , Drupal and
+            Wordpress setups and know my way around.
           </p>
         </TabPanel>
         <TabPanel>
@@ -43,7 +43,7 @@ const Skills = () => {
         </TabPanel>
         <TabPanel>
           <p>
-            <b>Master in computer application, MSc</b> - Bharathidasan
+            <b>Master in Computer Application, MSc</b> - Bharathidasan
             University 2007 - 2010
           </p>
           <p>
