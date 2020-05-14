@@ -1,6 +1,9 @@
-import React from "react";
-const Hero = ({ children, hero }) => {
-  return <header className={hero}>{children}</header>;
-};
+import React from 'react'
 
-export default Hero;
+const Hero = ({ children, hero }) => {
+    return (
+        <header className={hero}>{children}</header>
+    )
+}
+
+export default Hero
