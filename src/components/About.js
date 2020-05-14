@@ -15,14 +15,12 @@ const About = () => {
             </a>
           </button>
         </article>
-
         <article className="description">
           <h1>About Me</h1>
-         <p>
+          <p>
             I have a MSc in Computer Applications and Wide practical experience
             across several modern technologies.
           </p>
-          <br />
           <p>
             I have an eye for details, I’m an executor by heart, and people know
             me for my commitment, Positive attitude and teamwork.
