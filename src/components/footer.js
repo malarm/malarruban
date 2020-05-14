@@ -1,7 +1,7 @@
 import React from "react";
 import { IoLogoLinkedin, IoLogoGithub } from "react-icons/io";
 
-function Projects() {
+function Footer() {
   return (
     <div className="footer">
       <h1>I don't drink coffee, but I love tea. let's talk.</h1>
@@ -23,4 +23,4 @@ function Projects() {
   );
 }
 
-export default Projects;
+export default Footer;
