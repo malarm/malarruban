@@ -88,7 +88,7 @@ p {
   display: block;
   text-decoration: none;
   padding: 1rem 0;
-  color: #1d1d24;
+  color: #717173;
   transition: var(--mainTransition);
   text-align: center;
   font-size: 1.5rem;
@@ -436,8 +436,9 @@ a {
   margin-bottom: 0.5em;
 }
 .footer a {
-  color: var(--mainBlack);
+  color: #717173;
   padding: 4px;
+  font-size: 1.5em;
 }
 @media screen and (min-width: 992px) {
   .footer {
