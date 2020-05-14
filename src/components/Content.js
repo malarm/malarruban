@@ -14,7 +14,7 @@ const content = [
     title: "API Data",
     href: "https://github.com/malarm/React-With-API",
     description:
-      "A website to a company that rents out summer houses Two main features : The first feature is to demonstrate property details. The second feature is to show the trarrif range in the filter. ",
+      "A website to a company that rents out summer houses having two main features : The first feature is to demonstrate property details. The second feature is to show the trarrif range in the filter. ",
     usedTechnologies: ["React", "Html5", "CSS3", "API"],
     project: "Personal",
   },
@@ -48,7 +48,7 @@ const content = [
     title: "Deo",
     href: "https://www.deo.dk/",
     description:
-      "Built this website and maintained on a daily basis and making the registration page for participants was an integral part of work. ",
+      "Built this website and maintained on a daily basis. Making the registration page for participants was an integral part of work. ",
     project: "Work",
     usedTechnologies: [
       "C#",
@@ -67,7 +67,7 @@ const content = [
     title: "Undervisning",
     href: "http://www.undervisning.deo.dk/",
     description:
-      "I worked on this project from the beginning to end singlehandedly.  ",
+      "I worked on this project from the beginning to end single-handedly.  ",
     project: "Work",
     usedTechnologies: [
       "C#",
@@ -117,7 +117,7 @@ const content = [
     title: "Cphcasting",
     href: "https://www.cphcasting.dk/",
     description:
-      "I was part of a team of two people who developed and maintained this big project. I developed several modules and contributed significantly to build search function which is an important feature.  ",
+      "I was part of a team of two people who developed and maintained this big project. I developed several modules and contributed significantly to build the search function which is an important feature.  ",
     project: "Work",
     usedTechnologies: [
       "PHP",
