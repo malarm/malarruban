@@ -10,7 +10,6 @@ function Projects() {
         Professionally and personally I push myself to learn,
         <br /> and continously get better at what I love – building things.
       </h3>
-
       <div className="projects">
         {Content.map(
           ({ imgSrc, title, href, description, project, usedTechnologies }) => (
@@ -19,7 +18,7 @@ function Projects() {
                 <img src={imgSrc} />
                 <div className="text-block">
                   <label>{project}</label>
-                  <h4>{title}</h4>
+                  <h2>{title}</h2>
                 </div>
                 <div className="overlay">
                   <div className="project-desc">{description}</div>
