@@ -29,10 +29,6 @@
    outline: none;
 }
 
-[data-reach-tab]:active {
-  background: hsla(0, 0%, 0%, 0.05);
-}
-
 [data-reach-tab]:disabled {
   opacity: 0.25;
   cursor: default;
