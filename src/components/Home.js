@@ -12,7 +12,7 @@ const Home = () => {
         <Banner>
           <h2>
             Hi, I'm Malar <br />
-            I'm front-end developer.
+            I'm a front-end developer.
           </h2>
         </Banner>
       </Hero>
