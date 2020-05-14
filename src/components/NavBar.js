@@ -38,7 +38,7 @@ export default function NavBar() {
                 fontSize: "1.2rem",
               }}
             >
-              Download My Resume
+              Download my resume
             </a>
           </li>
           <li className="content-mobile">
