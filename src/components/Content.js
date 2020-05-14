@@ -14,7 +14,7 @@ const content = [
     title: "API Data",
     href: "https://github.com/malarm/React-With-API",
     description:
-      "A website to a company that rents out summer houses having two main features : The first feature is to demonstrate property details. The second feature is to show the trarrif range in the filter. ",
+      "A website to a company that rents out summer houses having two main features. The first feature is to demonstrate property details. The second feature is to show the trarrif range in the filter. ",
     usedTechnologies: ["React", "Html5", "CSS3", "API"],
     project: "Personal",
   },
