@@ -100,11 +100,20 @@ p {
   color: var(--mainred);
 }
 .content-desktop {
-  display: block;
-}
-.content-mobile {
   display: none;
 }
+.content-mobile {
+  display: block;
+}
+.logo {
+  text-decoration: none;
+  color: #1a202c;
+  margin: 3px;
+  padding: 13px;
+  font-size: 30px;
+  cursor: pointer;
+}
+
 @media screen and (min-width: 768px) {
   .nav-right {
     float: right;
@@ -120,27 +129,17 @@ p {
     padding: 0.5rem 0;
     font-size: 2rem;
   }
-}
-/* logo */
-.logo {
-  text-decoration: none;
-  color: #1a202c;
-  margin: 3px;
-  padding: 13px;
-  font-size: 30px;
-  cursor: pointer;
-}
-@media screen and (max-width: 768px) {
   .content-desktop {
-    display: none;
+    display: block;
   }
   .content-mobile {
-    display: block;
+    display: none;
   }
   .logo {
     font-size: 22px;
   }
 }
+
 /* Hero */
 
 .bannerhero {
