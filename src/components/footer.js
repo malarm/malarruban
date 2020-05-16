@@ -4,7 +4,7 @@ import { IoLogoLinkedin, IoLogoGithub } from "react-icons/io";
 function Footer() {
   return (
     <div className="footer">
-      <h1>I don't drink coffee, but I love tea. let's talk.</h1>
+      <h1>I don't drink coffee, but I love tea. Let's talk.</h1>
       <h3>Malar Ruban</h3>
       <h3>malam09@gmail.com</h3>
       <h3>+45 91 73 20 19</h3>
