@@ -13,17 +13,17 @@ const Skills = () => {
       <TabPanels>
         <TabPanel>
           <p>
-            <b> Front-end development.</b> My work passion is in the front-end,
+            <b> Front-end development,</b> My work passion is in the front-end,
             where I’m experienced in HTML5, CSS3 and Javascript, incl.frameworks
             like React.js and Next.js.
           </p>
           <p>
-            <b>Full-stack perspective.</b> I also have experience working with
-            backend, databases, 3rd party integrations and infrastructure.
+            <b>Full-stack perspective,</b> I also have the experience of working
+            with backend, databases, 3rd party integrations and infrastructure.
           </p>
           <p>
-            <b> CMS.</b> I have spent years working in Umbraco , Drupal and
-            Wordpress setups and know my way around.
+            <b> CMS,</b> I have spent years working in Umbraco , Drupal and
+            Wordpress setups and I know my way around.
           </p>
         </TabPanel>
         <TabPanel>
