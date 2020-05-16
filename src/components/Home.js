@@ -11,7 +11,7 @@ const Home = () => {
       <Hero hero="bannerhero">
         <Banner>
           <h2>
-            Hi, I'm Malar <br />
+            Hi, I'm Malar, <br />
             I'm a front-end developer.
           </h2>
         </Banner>
