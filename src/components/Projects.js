@@ -8,7 +8,7 @@ function Projects() {
       <h1>Projects </h1>
       <h3>
         Professionally and personally I push myself to learn,
-        <br /> and continously get better at what I love – building things.
+        <br /> and continously get better at what I love : building things.
       </h3>
       <div className="projects">
         {Content.map(
