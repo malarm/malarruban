@@ -317,7 +317,7 @@ span {
 }
 .project-desc {
   position: absolute;
-  top: 75%;
+  top: 66%;
   left: 99%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -403,7 +403,7 @@ a {
   left: 55px;
 
   color: var(--mainWhite);
-  padding-top: 23em;
+  padding-top: 25em;
 
   font-size: 1rem;
   text-align: center;
