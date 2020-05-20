@@ -13,29 +13,30 @@ const Skills = () => {
       <TabPanels>
         <TabPanel>
           <p>
-            <b> Front-end development,</b> My work passion is in the front-end,
-            where I’m experienced in HTML5, CSS3 and Javascript, incl.frameworks
-            like React.js and Next.js.
+            <span> Front-end development.</span> My work passion is in the
+            front-end, where I’m experienced in HTML5, CSS3 and Javascript,
+            incl.frameworks like React.js and Next.js.
           </p>
           <p>
-            <b>Full-stack perspective,</b> I also have the experience of working
-            with backend, databases, 3rd party integrations and infrastructure.
+            <span>Full-stack perspective.</span> I also have the experience of
+            working with backend, databases, 3rd party integrations and
+            infrastructure.
           </p>
           <p>
-            <b> CMS,</b> I have spent years working in Umbraco , Drupal and
+            <span> CMS.</span> I have spent years working in Umbraco, Drupal and
             Wordpress setups and I know my way around.
           </p>
         </TabPanel>
         <TabPanel>
           <p>
-            <b>Front-end developer - Intern</b> - Appliedtechnologies 2019 -
-            2020
+            <span>Front-end developer - Intern</span> - Appliedtechnologies 2019
+            - 2020
           </p>
           <p>
-            <b>Web developer</b> - DEO 2017 - 2018
+            <span>Web developer</span> - DEO 2017 - 2018
           </p>
           <p>
-            <b>Web developer</b> - Xenos IT 2014
+            <span>Web developer</span> - Xenos IT 2014
           </p>
           <p>
             <b>Developer</b> - Usoftware Systems 2012 - 2014
@@ -43,12 +44,12 @@ const Skills = () => {
         </TabPanel>
         <TabPanel>
           <p>
-            <b>Master in Computer Application, MSc</b> - Bharathidasan
+            <span>Master in Computer Application, MSc</span> - Bharathidasan
             University 2007 - 2010
           </p>
           <p>
-            <b>Bachelor in Chemistry, BSc</b> - Bharathidasan University 2004 -
-            2007
+            <span>Bachelor in Chemistry, BSc</span> - Bharathidasan University
+            2004 - 2007
           </p>
         </TabPanel>
       </TabPanels>
