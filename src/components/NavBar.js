@@ -6,7 +6,8 @@ export default function NavBar() {
   return (
     <nav className="navbar">
       <div className="nav-header">
-        <h1 className="logo">Malar Ruban</h1>
+        <h1 className="logo content-desktop">Malar Ruban</h1>
+        <h1 className="logo content-mobile">MR</h1>
       </div>
       <div className="nav-right">
         <ul className="nav-links">
@@ -49,7 +50,7 @@ export default function NavBar() {
               style={{
                 border: "2px solid black",
                 borderRadius: "10px",
-                padding: "13px",
+                padding: "7px",
                 fontSize: "1rem",
               }}
             >
