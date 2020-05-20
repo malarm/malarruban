@@ -147,7 +147,7 @@ p {
 
 .bannerhero {
   background: url("./images/banner.jpg") center/cover no-repeat;
-  min-height: 90vh;
+  min-height: 100vh;
 }
 /* End of Hero */
 /* Banner */
