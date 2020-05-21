@@ -523,7 +523,7 @@ a {
   font-weight: bold;
 }*/
 .navbar li a:hover:not(.active) {
-  background-color: #e2e8f0;
+  color: #f9004d;
 }
 .content-desktop {
   display: none;
