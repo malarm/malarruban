@@ -52,9 +52,8 @@ const content = [
     project: "Work",
     usedTechnologies: [
       "C#",
-      "ASP.NET.Core",
+      "ASP.NET",
       "Umbraco",
-      "Visual studio",
       "Entity framework",
       "SQL",
       "Html5",
