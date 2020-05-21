@@ -1,16 +1,13 @@
 import React from "react";
 import { IoLogoLinkedin, IoLogoGithub } from "react-icons/io";
 import Resume from "../images/Resume.pdf";
-
 export default function NavBar() {
   return (
-    <nav className="navbar">
-      <div className="nav-header">
-        <h1 className="logo content-desktop">Malar Ruban</h1>
+    <div className="navbar">
+      <ul>
+        <li className="logo content-desktop">Malar Ruban</li>
         <h1 className="logo content-mobile">MR</h1>
-      </div>
-      <div className="nav-right">
-        <ul className="nav-links">
+        <div className="navbar-right">
           <li>
             <a
               href="https://github.com/malarm?tab=repositories"
@@ -19,6 +16,7 @@ export default function NavBar() {
               <IoLogoGithub />
             </a>
           </li>
+
           <li>
             <a
               href="https://www.linkedin.com/in/malar-ruban-a02669b5/"
@@ -35,8 +33,9 @@ export default function NavBar() {
               style={{
                 border: "2px solid black",
                 borderRadius: "10px",
-                padding: "13px",
-                fontSize: "1.2rem",
+                padding: "14px",
+                fontSize: "1.1rem",
+                fontWeight: "bold",
               }}
             >
               Download my resume
@@ -57,8 +56,8 @@ export default function NavBar() {
               Resume
             </a>
           </li>
-        </ul>
-      </div>
-    </nav>
+        </div>
+      </ul>
+    </div>
   );
 }
