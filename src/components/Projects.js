@@ -21,20 +21,16 @@ function Projects() {
                   <h2>{title}</h2>
                 </div>
                 <div className="overlay">
-                  <div className="project-desc">{description}</div>
-                  <div className="used-tech">
-                    <ul>
-                      {usedTechnologies.map((technologies) => (
-                        <li>{technologies}</li>
-                      ))}
-                    </ul>
-                  </div>
-                  {/* <div className="viewproject-button">
-                    <div>View Project</div>
-                    <div style={{ padding: "3px" }}>
-                      <FaArrowRight />
+                  <div className="project-desc">
+                    <div>{description}</div>
+                    <div style={{ marginTop: "20px" }}>
+                      <ul>
+                        {usedTechnologies.map((technologies) => (
+                          <li>{technologies}</li>
+                        ))}
+                      </ul>
                     </div>
-                  </div> */}
+                  </div>
                 </div>
               </a>
             </div>
