@@ -22,7 +22,7 @@ const content = [
     title: "Malar Resort",
     href: "https://github.com/malarm/malarresort",
     description: " A website to  rent out hotels rooms.",
-    usedTechnologies: ["React", "React Router", "React Icons", "HTML5", "CSS3"],
+    usedTechnologies: ["React", "React Router", "React Icons"],
     project: "Personal",
   },
   {
@@ -31,15 +31,15 @@ const content = [
     href: "https://github.com/malarm/IMDB",
     description: "A website to find movies with IMDB ID’S.  ",
     project: "Personal",
-    usedTechnologies: ["C#", "ASP.NET", "API", "MS SQL", "Bootstrap"],
+    usedTechnologies: ["C#", "ASP.NET", "API", "Bootstrap"],
   },
   {
     imgSrc: Deo,
     title: "Deo",
     href: "https://www.deo.dk/",
-    description: "A website for DEO ",
+    description: "Built this website and maintained on a daily basis",
     project: "Work",
-    usedTechnologies: ["C#", "ASP.NET", "Umbraco", "Entity framework", "SQL"],
+    usedTechnologies: ["C#", "ASP.NET", "Umbraco", "SQL"],
   },
   {
     imgSrc: Undervisning,
@@ -63,7 +63,7 @@ const content = [
     href: "http://notat.dk/",
     description: "A website to host data about magazines. ",
     project: "Work",
-    usedTechnologies: ["C#", "ASP.NET.Core", "Umbraco", "SQL", "Html5", "CSS3"],
+    usedTechnologies: ["C#", "ASP.NET.Core", "Umbraco", "SQL"],
   },
   {
     imgSrc: Cphcasting,
