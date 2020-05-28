@@ -22,7 +22,7 @@ const content = [
     title: "Malar Resort",
     href: "https://github.com/malarm/malarresort",
     description: " A website to  rent out hotels rooms.",
-    usedTechnologies: ["React", "React Router", "React Icons"],
+    usedTechnologies: ["React", "React Router"],
     project: "Personal",
   },
   {
@@ -55,7 +55,7 @@ const content = [
     href: "http://www.euforedrag.dk/",
     description: "A website to host data about speakers. ",
     project: "Work",
-    usedTechnologies: ["C#", "ASP.NET.Core", "Umbraco", "SQL"],
+    usedTechnologies: ["C#", "ASP.NET.Core", "Umbraco"],
   },
   {
     imgSrc: Notat,
@@ -63,7 +63,7 @@ const content = [
     href: "http://notat.dk/",
     description: "A website to host data about magazines. ",
     project: "Work",
-    usedTechnologies: ["C#", "ASP.NET.Core", "Umbraco", "SQL"],
+    usedTechnologies: ["C#", "ASP.NET.Core", "Umbraco"],
   },
   {
     imgSrc: Cphcasting,
@@ -71,7 +71,7 @@ const content = [
     href: "https://www.cphcasting.dk/",
     description: "A website to search for models, actors and many more. ",
     project: "Work",
-    usedTechnologies: ["PHP", "Drupal, Wordpress ", "Javascript"],
+    usedTechnologies: ["PHP", "Drupal, Wordpress "],
   },
 ];
 export default content;
