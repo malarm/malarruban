@@ -5,7 +5,7 @@ import Resume from "../images/Resume.pdf";
 
 const About = () => {
   return (
-    <div style={{ backgroundColor: "#f7f7f7" }}>
+    <>
       <section className="about-me">
         <article className="profile-picture">
           <img src={Malar} />
@@ -28,7 +28,7 @@ const About = () => {
           <Skills />
         </article>
       </section>
-    </div>
+    </>
   );
 };
 export default About;
