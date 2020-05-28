@@ -19,9 +19,10 @@
 @import url("https://fonts.googleapis.com/css?family=Inter|Poppins&display=swap");
 
 body {
-  padding-top: 66px;
+  padding-top: 30px;
   color: var(--mainBlack);
   background: var(--mainWhite);
+  font-family: "Poppins", sans-serif;
   /* font-family: Verdana, Geneva, Tahoma, sans-serif;*/
   line-height: 1.4;
 }
@@ -29,25 +30,22 @@ h1 {
   font-size: 44px;
   line-height: 1;
   margin-bottom: 0.5em;
-  font-family: "Poppins", sans-serif;
   color: #1f1f25;
 }
 h2 {
   font-size: 1.5em;
   margin-bottom: 0.75em;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 h3 {
   font-size: 1.4em;
   line-height: 1;
   margin-bottom: 1em;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 h4 {
   font-size: 1.2em;
   line-height: 1.25;
   margin-bottom: 1.25em;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
 }
 h5 {
   font-size: 1em;
@@ -60,7 +58,6 @@ h6 {
   margin-bottom: 1.5em;
 }
 p {
-  font-family: "Poppins", sans-serif;
   color: #717173;
   font-size: 1.1em;
 }
@@ -145,20 +142,24 @@ p {
 /* Hero */
 
 .bannerhero {
-  width: 100%;
-  height: 900px;
+  /* width: 100%; */
+  height: 835px;
   background-image: url("./images/banner.jpg");
   background-size: cover;
+  margin-left: 4rem;
+  margin-right: 4rem;
 }
 .bannerhero h2 {
-  font-family: "Poppins", sans-serif;
   padding-top: 17rem;
-  padding-left: 3rem;
-  font-size: 2.1em;
+  padding-left: 6rem;
+  font-size: 1.8em;
 }
 @media screen and (max-width: 992px) {
   .bannerhero {
     height: 450px;
+    margin-left: 0.8rem;
+    margin-right: 0.8rem;
+    margin-top: 0rem;
   }
   .bannerhero h2 {
     padding-top: 8rem;
@@ -168,12 +169,15 @@ p {
 }
 @media screen and (max-width: 576px) {
   .bannerhero {
-    height: 271px;
+    height: 247px;
+    margin-left: 0.8rem;
+    margin-right: 0.8rem;
+    margin-top: 0rem;
   }
   .bannerhero h2 {
     padding-top: 4rem;
     padding-left: 0.5rem;
-    font-size: 0.8em;
+    font-size: 0.7em;
   }
 }
 /* End of Hero */
@@ -209,7 +213,7 @@ p {
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.26);
   font-size: 1.3rem;
   list-style-type: none;
-  font-family: "Inter", sans-serif;
+  /* font-family: "Inter", sans-serif; */
 }
 .skills li {
   background-color: var(--darkGrey);
@@ -224,7 +228,10 @@ p {
   grid-template-columns: 1fr;
   margin: 2rem auto;
   width: 95vw;*/
-  margin: 0;
+  background-color: var(--mainBlack);
+  margin-left: 0.8rem;
+  margin-right: 0.8rem;
+  background-color: #f1f1f1;
 }
 
 .fullresume {
@@ -236,9 +243,13 @@ p {
   border-radius: 10px;
   font-size: 20px;
 }
+.fullresume a {
+  text-decoration: none;
+  color: white;
+}
 .data-reach-tab {
   background: none;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: bold;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -274,23 +285,29 @@ span {
   font-weight: bolder;
   color: #555555;
 }
+
 @media screen and (min-width: 992px) {
   .about-me {
-    max-width: 1170px;
     display: flex;
-    padding-bottom: 20px;
+    padding-bottom: 5rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    padding-left: 6rem;
   }
   .profile-picture {
     padding-top: 83px;
   }
   .description h1 {
     margin-top: 73px;
-    margin-left: 9px;
+    margin-left: 13px;
     text-align: left;
     margin-bottom: 2px;
   }
   .data-reach-tab {
     font-size: 20px;
+  }
+  .description p {
+    width: 60%;
   }
 }
 
@@ -305,12 +322,14 @@ span {
   font-size: 44px;
   margin-top: 70px;
 }
-.project-container h3 {
+.project-container p {
   color: #717173;
   font-size: 20px;
   text-align: center;
   line-height: 1.5em;
-  padding: 3px;
+  padding-bottom: 3.5rem;
+  padding-left: 13px;
+  padding-right: 13px;
 }
 .container {
   position: relative;
@@ -335,7 +354,7 @@ span {
   transition: 0.5s ease;
   font-family: "Inter", sans-serif;
   color: white;
-  font-size: 18px;
+  font-size: 13px;
 }
 .container:hover {
   background-color: black;
@@ -348,7 +367,7 @@ span {
 }
 .project-desc {
   position: absolute;
-  top: 50%;
+  top: 117%;
   left: 50%;
   text-align: center;
   width: 100%;
@@ -398,7 +417,7 @@ span {
 }
 
 label {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   color: var(--mainWhite);
   font-family: Poppins, sans-serif;
   text-align: center;
@@ -420,7 +439,7 @@ a {
 
 .text-block {
   position: absolute;
-  top: 95%;
+  top: 70%;
   left: 95%;
   color: var(--mainWhite);
   font-size: 1rem;
@@ -431,7 +450,6 @@ a {
 }
 .text-block h2 {
   font-size: 1.9em;
-  font-family: "Poppins", sans-serif;
 }
 @media screen and (min-width: 992px) {
   .projects {
@@ -439,6 +457,8 @@ a {
     width: 80vw;
     margin: 0 auto;
     display: grid;
+    grid-column-gap: 80px;
+    padding-left: 6rem;
   }
   .container img {
     padding: 0;
@@ -447,12 +467,14 @@ a {
 /*Footer */
 
 .footer {
-  background: #f7f7f7;
+  background: #f1f1f1;
   text-align: center;
-  padding: 12px;
+  padding: 3rem;
+  margin: 0.8rem;
 }
 .footer h1 {
-  font-size: 20px;
+  font-size: 18px;
+  line-height: 1.2;
 }
 .footer h3 {
   color: #717173;
@@ -465,7 +487,11 @@ a {
 }
 @media screen and (min-width: 992px) {
   .footer {
-    padding: 5em;
+    padding: 10em;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-bottom: 30px;
+    margin-top: 5rem;
   }
   .footer h1 {
     font-size: 30px;
@@ -473,17 +499,17 @@ a {
 }
 
 /* nav */
-.navbar {
+/* .navbar {
   position: absolute;
   top: 0;
   width: 100%;
-  font-family: "Poppins", sans-serif;
 }
 
 .logo {
   color: #1a202c;
-  margin: 3px;
-  padding: 14px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding-left: 0.5rem;
   font-size: 1.5rem;
   cursor: pointer;
   font-weight: bold;
@@ -494,6 +520,7 @@ a {
   padding: 0;
   overflow: hidden;
   background: rgb(240, 239, 239);
+  margin: 0.8rem;
 }
 
 .navbar li {
@@ -515,13 +542,7 @@ a {
   float: right;
   margin-top: -58px;
 }
-/*.resume {
-  border: 2px solid black;
-  border-radius: 10px;
-  padding: 14px;
-  font-size: 1.1rem;
-  font-weight: bold;
-}*/
+
 .navbar li a:hover:not(.active) {
   color: #f9004d;
 }
@@ -542,7 +563,161 @@ a {
     padding: 14px 3px;
   }
   .navbar-right {
-    margin: 0px;
-    padding: 9px;
+    margin: 5px;
+    padding-right: 6rem;
+    padding-bottom: 0.9rem;
   }
+  .navbar ul {
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-top: 2rem;
+  }
+  .logo {
+    padding-left: 6rem;
+    margin: 5px;
+  }
+} */
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 18px;
+  background-color: #f1f1f1;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  padding-right: 6rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+.logo {
+  cursor: pointer;
+  margin-right: auto;
+  padding-left: 6rem;
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: #1a202c;
+}
+.nav-links {
+  list-style: none;
+}
+.nav-links li {
+  display: inline-block;
+  /* padding: 0px 20px; */
+  font-size: 1.7rem;
+}
+.nav-links li a {
+  transition: all 0.3s ease 0s;
+  color: #717173;
+  padding-left: 15px;
+}
+.nav-links li a:hover {
+  color: #f9004d;
+}
+header button {
+  padding: 12px 25px;
+  /* background-color: rgba(0, 136, 169, 1); */
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  border: 2px solid black;
+  color: #717173;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+header button:hover {
+  color: #f9004d;
+}
+.content-desktop {
+  display: block;
+}
+.content-mobile {
+  display: none;
+}
+
+@media screen and (max-width: 576px) {
+  .logo {
+    font-size: 1.5rem;
+    padding-left: 0.5rem;
+    padding-bottom: 1rem;
+  }
+  header {
+    margin-left: 0.8rem;
+    margin-right: 0.8rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 0px;
+  }
+  .nav-links li {
+    font-size: 1.5rem;
+  }
+  .nav-links li a {
+    padding-bottom: 1rem;
+  }
+  button {
+    padding: 8px 17px;
+  }
+  .content-desktop {
+    display: none;
+  }
+  .content-mobile {
+    display: block;
+  }
+}
+@media screen and (max-width: 992px) {
+  header {
+    margin-left: 0.8rem;
+    margin-right: 0.8rem;
+    padding-right: 2rem;
+  }
+  .logo {
+    padding-left: 2rem;
+  }
+}
+
+.team-area {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+}
+.single-team {
+  width: 360px;
+  height: 400px;
+  padding: 24px;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  transition: 0.6s ease-out;
+}
+.single-team:hover {
+  transform: translateY(15px);
+}
+.single-team:hover:before {
+  opacity: 1;
+}
+.single-team:hover .team-text {
+  opacity: 1;
+  transform: translateY(0);
+}
+.single-team:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  transition: 0.5s;
+  opacity: 0;
+}
+single-team img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
