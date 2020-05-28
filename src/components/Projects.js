@@ -6,10 +6,10 @@ function Projects() {
   return (
     <div className="project-container">
       <h1>Projects </h1>
-      <h3>
+      <p>
         Professionally and personally I push myself to learn,
-        <br /> and continously get better at what I love : building things.
-      </h3>
+        <br /> and continously get better at what I love - building things.
+      </p>
       <div className="projects">
         {Content.map(
           ({ imgSrc, title, href, description, project, usedTechnologies }) => (
@@ -19,16 +19,16 @@ function Projects() {
                 <div className="text-block">
                   <label>{project}</label>
                   <h2>{title}</h2>
-                </div>
-                <div className="overlay">
-                  <div className="project-desc">
-                    <div>{description}</div>
-                    <div style={{ marginTop: "20px" }}>
-                      <ul>
-                        {usedTechnologies.map((technologies) => (
-                          <li>{technologies}</li>
-                        ))}
-                      </ul>
+                  <div className="overlay">
+                    <div className="project-desc">
+                      <div>{description}</div>
+                      <div style={{ marginTop: "20px" }}>
+                        <ul>
+                          {usedTechnologies.map((technologies) => (
+                            <li>{technologies}</li>
+                          ))}
+                        </ul>
+                      </div>
                     </div>
                   </div>
                 </div>
