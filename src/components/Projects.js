@@ -20,15 +20,13 @@ function Projects() {
                   <label>{project}</label>
                   <h2>{title}</h2>
                   <div className="overlay">
-                    <div className="project-desc">
-                      <div>{description}</div>
-                      <div style={{ marginTop: "20px" }}>
-                        <ul>
-                          {usedTechnologies.map((technologies) => (
-                            <li>{technologies}</li>
-                          ))}
-                        </ul>
-                      </div>
+                    <div>{description}</div>
+                    <div>
+                      <ul>
+                        {usedTechnologies.map((technologies) => (
+                          <li>{technologies}</li>
+                        ))}
+                      </ul>
                     </div>
                   </div>
                 </div>
