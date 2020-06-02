@@ -1,8 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 import Content from "./Content";
-import { FaArrowRight } from "react-icons/fa";
 
 function Projects() {
+  const [isShown, setIsShown] = useState(false);
   return (
     <div className="project-container">
       <h1>Projects </h1>
@@ -14,21 +14,28 @@ function Projects() {
         {Content.map(
           ({ imgSrc, title, href, description, project, usedTechnologies }) => (
             <div className="container">
-              <a href={href} target="_blank">
+              <a
+                href={href}
+                target="_blank"
+                onMouseEnter={() => setIsShown(true)}
+                onMouseLeave={() => setIsShown(false)}
+              >
                 <img src={imgSrc} />
                 <div className="text-block">
                   <label>{project}</label>
                   <h2>{title}</h2>
-                  <div className="overlay">
-                    <div>{description}</div>
-                    <div>
-                      <ul>
-                        {usedTechnologies.map((technologies) => (
-                          <li>{technologies}</li>
-                        ))}
-                      </ul>
+                  {isShown && (
+                    <div className="overlay">
+                      <div>{description}</div>
+                      <div>
+                        <ul>
+                          {usedTechnologies.map((technologies) => (
+                            <li>{technologies}</li>
+                          ))}
+                        </ul>
+                      </div>
                     </div>
-                  </div>
+                  )}
                 </div>
               </a>
             </div>
