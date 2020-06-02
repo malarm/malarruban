@@ -343,7 +343,7 @@ header {
   font-size: 18px;
   background-color: #f1f1f1;
   padding-top: 1rem;
-  padding-bottom: 1rem;
+ /* padding-bottom: 1rem;*/
   padding-right: 0rem;
 }
 .logo {
@@ -410,8 +410,8 @@ header button:hover {
   }
   header {
     padding-right: 6rem;
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
+   /* padding-top: 1.5rem;
+    padding-bottom: 1.5rem;*/
   }
   .nav-links li {
     font-size: 1.9rem;
