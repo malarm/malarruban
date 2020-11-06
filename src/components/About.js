@@ -18,7 +18,7 @@ const About = () => {
         <article className="description">
           <h1>About Me</h1>
           <p>
-            I have an MSc in Computer Applications and wide practical experience
+            I have an MSc in Computer Applications and practical experience
             across several modern technologies.
           </p>
           <p>
