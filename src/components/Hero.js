@@ -8,7 +8,8 @@ const Hero = () => {
     <div className="bannerhero">
       <h2>
         Hi, I'm Malar, <br />
-        I'm a front-end developer.
+       // I'm a front-end developer.
+        Developer
       </h2>
     </div>
   );
