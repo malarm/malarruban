@@ -6,9 +6,9 @@ import React from "react";
 const Hero = () => {
   return (
     <div className="bannerhero">
-      <h2>
+   <h2>
         Hi, I'm Malar, <br />
-         Developer
+        I'm a front-end developer.
       </h2>
     </div>
   );
