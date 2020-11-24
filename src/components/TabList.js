@@ -29,7 +29,7 @@ const Skills = () => {
         </TabPanel>
       <TabPanel>
           <p>
-            <span>Front-end developer - Intern</span> - Appliedtechnologies 2019
+            <span>Front-end developer</span> - Appliedtechnologies 2019
             - 2020
           </p>
           <p>
