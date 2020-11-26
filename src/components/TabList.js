@@ -28,16 +28,11 @@ const Skills = () => {
           </p>
         </TabPanel>
       <TabPanel>
-          <p>
-            <span>Front-end developer</span> - Appliedtechnologies 2019
-            - 2020
-          </p>
+        
           <p>
             <span>Web developer</span> - DEO 2017 - 2018
           </p>
-          <p>
-            <span>Web developer</span> - Xenos IT 2014
-          </p>
+         
           <p>
             <b>Developer</b> - Usoftware Systems 2012 - 2014
           </p>
