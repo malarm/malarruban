@@ -25,14 +25,7 @@ const content = [
     usedTechnologies: ["React", "React Router"],
     project: "Personal",
   },
-  {
-    imgSrc: Movie,
-    title: "IMDB Movies",
-    href: "https://github.com/malarm/IMDB",
-    description: "A website to find movies with IMDB ID’S.  ",
-    project: "Personal",
-    usedTechnologies: ["C#", "ASP.NET", "API", "Bootstrap"],
-  },
+
   {
     imgSrc: Deo,
     title: "Deo",
@@ -41,37 +34,6 @@ const content = [
     project: "Work",
     usedTechnologies: ["C#", "ASP.NET", "Umbraco", "SQL"],
   },
-  {
-    imgSrc: Undervisning,
-    title: "Undervisning",
-    href: "http://www.undervisning.deo.dk/",
-    description: " A website to facilitate teaching about the EU. ",
-    project: "Work",
-    usedTechnologies: ["C#", "Umbraco", "SQL", "Javascript"],
-  },
-  {
-    imgSrc: Euforedrag,
-    title: "Euforedrag",
-    href: "http://www.euforedrag.dk/",
-    description: "A website to host data about speakers. ",
-    project: "Work",
-    usedTechnologies: ["C#", "ASP.NET.Core", "Umbraco"],
-  },
-  {
-    imgSrc: Notat,
-    title: "Notat",
-    href: "http://notat.dk/",
-    description: "A website to host data about magazines. ",
-    project: "Work",
-    usedTechnologies: ["C#", "ASP.NET.Core", "Umbraco"],
-  },
-  {
-    imgSrc: Cphcasting,
-    title: "Cphcasting",
-    href: "https://www.cphcasting.dk/",
-    description: "A website to search for models, actors and many more. ",
-    project: "Work",
-    usedTechnologies: ["PHP", "Drupal, Wordpress "],
-  },
+ 
 ];
 export default content;
